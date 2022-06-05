@@ -44,11 +44,12 @@ public class Main {
         }
         System.out.println(built);
     }
+
     private static void task8() {
         String data = "aabccddefgghiijjkk";
         StringBuilder bodybuilder = new StringBuilder();
         String[] a = data.split("");
-        for (int i = 0;i < data.length() - 1;i ++) {
+        for (int i = 0; i < data.length() - 1; i++) {
             if (a[i].equals(a[i + 1])) {
                 bodybuilder.append(a[i]);
             }
